@@ -4,8 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css">
 </head>
 <body>
-    
+    <div class="font-sans text-gray-800 bg-white">
+  
+  <nav class="hidden lg:block lg:bg-gray-100 lg:py-2 lg:px-6 lg:px-20 lg:flex lg:justify-between lg:items-center lg:text-xs lg:text-gray-600 lg:border-b">
+    <div class="flex space-x-6">
+      <a href="#" class="hover:text-black">О компании</a>
+      <a href="./src/muhammad.html" class="hover:text-black">Доставка и оплата</a>
+      <a href="./src/abdulo.html" class="hover:text-black">Гарантии</a>
+      <a href="./src/mancho.html" class="hover:text-black">Контакты</a>
+    </div>
+    <div class="flex items-center space-x-6">
+      <a href="tel:+79652374449" class="font-semibold text-black">+7 (965) 237-44-49</a>
+      <button class="flex items-center">Русский <span class="ml-1 text-[8px]">▼</span></button>
+      <a href="#" class="hover:text-black">Личный кабинет</a>
+    </div>
+  </nav>
+
+  <header class="py-6 px-6 lg:px-20 flex flex-wrap items-center justify-between gap-4">
+    <div class="flex items-center space-x-2">
+      <div class="w-10 h-10 border-2 border-black flex items-center justify-center font-bold text-xl">N</div>
+      <div class="leading-none">
+        <h1 class="font-bold text-lg tracking-tighter">NO DOORS</h1>
+        <p class="text-[10px] tracking-[0.2em] uppercase">Technology</p>
+      </div>
+    </div>
+
+    <div class="flex-1 max-w-2xl flex border-2 border-green-600 rounded-md overflow-hidden">
+      <input type="text" placeholder="Введите поисковой запрос.." class="w-full px-4 py-2 outline-none">
+      <button class="bg-green-600 text-white px-6 py-2 flex items-center gap-2 hover:bg-green-700 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+        Найти
+      </button>
+    </div>
+
+    <div class="flex items-center space-x-8">
+      <div class="relative flex flex-col items-center cursor-pointer group">
+        <div class="absolute -top-1 -right-1 bg-red-600 text-white text-[10px] w-4 h-4 flex items-center justify-center rounded-full">4</div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600 group-hover:text-red-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+        </svg>
+        <span class="text-xs mt-1">Избранное</span>
+      </div>
+      <div class="relative flex flex-col items-center cursor-pointer group">
+        <div class="absolute -top-1 -right-1 bg-red-600 text-white text-[10px] w-4 h-4 flex items-center justify-center rounded-full">10</div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600 group-hover:text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+        </svg>
+        <span class="text-xs mt-1">Моя корзина</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="px-6 lg:px-20 border-b overflow-x-auto">
+    <ul class="flex space-x-8 py-3 text-sm font-medium whitespace-nowrap">
+      <li class=" flex items-center">Apple <span class="ml-1 text-[8px]">▼</span></li>
+      <li class=" flex items-center">Huawei <span class="ml-1 text-[8px]">▼</span></li>
+      <li class=" flex items-center">Xiaomi <span class="ml-1 text-[8px]">▼</span></li>
+      <li class=" flex items-center">Samsung <span class="ml-1 text-[8px]">▼</span></li>
+      <li class="">Питание и кабели</li>
+      <li class="">Powerbank</li>
+      <li class="">Акции</li>
+      <li class="font-bold ml-auto">Прайс-лист</li>
+    </ul>
+  </nav>
+
+  <main class="p-6 lg:p-10 bg-white">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto">
+      
+      <div class="bg-green-600 rounded-2xl p-8 relative overflow-hidden text-white flex flex-col justify-between h-[400px]">
+        <div class="z-10 max-w-xs">
+          <h2 class="text-4xl font-bold leading-tight mb-6">Защитное стекло на iPhone 11 Pro по лучшей цене!</h2>
+          <button class="bg-white text-green-700 px-8 py-3 rounded-md font-semibold hover:bg-gray-100 transition">
+            Подробнее
+          </button>
+        </div>
+        <div class="absolute right-[-20px]"><img src="./img/phone (1).png" alt=""></div>
+      </div>
+
+      <div class="flex flex-col gap-6">
+        <div class="bg-blue-100 rounded-2xl p-8 h-[190px] relative flex flex-col justify-between group overflow-hidden">
+          <h3 class="text-2xl font-bold max-w-[180px]">Silicone Case для iPhone Xr</h3>
+          <a href="#" class="text-green-600 font-bold flex items-center group-hover:underline">
+            Подробнее <span class="ml-2">→</span>
+          </a>
+          <div class="absolute right-1 bottom-[1px]"><img src="./img/64507_3 1.png" alt=""></div>
+        </div>
+
+        <div class="bg-gray-100 rounded-2xl p-8 h-[190px] relative flex flex-col justify-between group overflow-hidden">
+          <h3 class="text-2xl font-bold max-w-[250px]">PowerBank от Xiaomi на 10 800 мА·ч</h3>
+          <a href="#" class="text-green-600 font-bold flex items-center group-hover:underline">
+            Подробнее <span class="ml-2">→</span>
+          </a>
+          <div class="absolute right-8 top-1/2 -translate-y-1/2 "><img src="./img/img (1).png" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
 </body>
 </html>
