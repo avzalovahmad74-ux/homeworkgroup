@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../output.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav
+    class="hidden lg:block lg:bg-gray-100 lg:py-2 lg:px-6 lg:px-20 lg:flex lg:justify-between lg:items-center lg:text-xs lg:text-gray-600 lg:border-b">
+    <div class="flex space-x-6">
+      <a href="../src/index.html" class="hover:text-black">О компании</a>
+      <a href="./muhammad.html" class="hover:text-black">Доставка и оплата</a>
+      <a href="./abdulo.html" class="hover:text-black">Гарантии</a>
+      <a href="#" class="hover:text-black">Контакты</a>
+    </div>
+    <div class="flex items-center space-x-6">
+      <a href="tel:+79652374449" class="font-semibold text-black">+7 (965) 237-44-49</a>
+      <button class="flex items-center">Русский <span class="ml-1 text-[8px]">▼</span></button>
+      <a href="#" class="hover:text-black">Личный кабинет</a>
+    </div>
+  </nav>
+
+  <header class="py-6 px-6 lg:px-20 flex flex-wrap items-center justify-between gap-4">
+
+    <img src="./logo.png" alt="">
+
+    <div class="flex-1 max-w-2xl flex border-2 border-green-600 rounded-md overflow-hidden">
+      <input type="text" placeholder="Введите поисковой запрос.." class="w-full px-4 py-2 outline-none">
+      <button class="bg-green-600 text-white px-6 py-2 flex items-center gap-2 hover:bg-green-700 transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+        Найти
+      </button>
+    </div>
+
+    <div class="flex items-center space-x-8">
+      <div class="relative flex flex-col items-center cursor-pointer group">
+        <div
+          class="absolute -top-1 -right-1 bg-red-600 text-white text-[10px] w-4 h-4 flex items-center justify-center rounded-full">
+          4</div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600 group-hover:text-red-500" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+        </svg>
+        <span class="text-xs mt-1">Избранное</span>
+      </div>
+      <div class="relative flex flex-col items-center cursor-pointer group">
+        <div
+          class="absolute -top-1 -right-1 bg-red-600 text-white text-[10px] w-4 h-4 flex items-center justify-center rounded-full">
+          10</div>
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-600 group-hover:text-green-600" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+        </svg>
+        <span class="text-xs mt-1">Моя корзина</span>
+      </div>
+    </div>
+
+  </header>
+  <section class="bg-[#FCFCFD] mt-[50px] lg:mt-[100px] min-h-screen py-10">
+    <div class="flex flex-col gap-[20px] lg:gap-[30px] max-w-[1200px] m-auto px-4 lg:px-0">
+
+      <div class="flex flex-row gap-[10px] lg:gap-[30px]">
+        <p class="text-[12px] lg:text-[14px] text-gray-600">Главная / Apple / iPhone XS Max / Шлейфы</p>
+      </div>
+
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <h1 class="text-[28px] lg:text-[40px] font-bold">Шлейфы для iPhone XS Max</h1>
+        <div class="flex flex-row items-center gap-[15px] lg:gap-[20px] font-semibold">
+          <p class="text-sm lg:text-base">Показывать по:</p>
+          <span class="border-b-1px border-b border-[#399A3A] cursor-pointer">8</span>
+          <span class="text-gray-600 cursor-pointer">16</span>
+          <span class="text-gray-600 cursor-pointer">32</span>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[20px] lg:gap-[30px]">
+
+        <div
+          class="flex flex-col justify-between rounded-[5px] p-[15px] bg-white border border-gray-100 shadow-sm h-[461px]">
+          <img src="./img.png" alt="Product" class="mx-auto max-h-[180px] object-contain">
+          <p class="text-[18px] font-semibold leading-tight">iPhone 7 Plus Шлейф <br> кнопки включения + <br> Шлейф
+            громкости <br> Оригинал</p>
+          <div class="space-y-1">
+            <p class="flex justify-between text-[14px] text-gray-600">Разница <span class="text-black font-medium">950
+                ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">Оптом (от 5 штук): <span
+                class="text-black font-medium">750 ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">В наличии: <span
+                class="text-black font-medium">2536 шт.</span></p>
+          </div>
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-[18px] font-medium">- 96 +</p>
+            <button
+              class="w-[120px] lg:w-[142px] h-[53px] border border-[#399A3A] text-[#399A3A] font-semibold hover:bg-[#399A3A] hover:text-white transition-all">В
+              корзину</button>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col justify-between rounded-[5px] p-[15px] bg-white border border-gray-100 shadow-sm h-[461px]">
+          <img src="./img.png" alt="Product" class="mx-auto max-h-[180px] object-contain">
+          <p class="text-[18px] font-semibold leading-tight">iPhone 7 Plus Шлейф <br> кнопки включения + <br> Шлейф
+            громкости <br> Оригинал</p>
+          <div class="space-y-1">
+            <p class="flex justify-between text-[14px] text-gray-600">Разница <span class="text-black">950 ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">Оптом (от 5 штук): <span class="text-black">750
+                ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">В наличии: <span class="text-black">2536
+                шт.</span></p>
+          </div>
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-[18px] font-medium">- 96 +</p>
+            <button
+              class="w-[120px] lg:w-[142px] h-[53px] border border-[#399A3A] text-[#399A3A] font-semibold hover:bg-[#399A3A] hover:text-white transition-all">В
+              корзину</button>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col justify-between rounded-[5px] p-[15px] bg-white border border-gray-100 shadow-sm h-[461px]">
+          <img src="./img.png" alt="Product" class="mx-auto max-h-[180px] object-contain">
+          <p class="text-[18px] font-semibold leading-tight">iPhone 7 Plus Шлейф <br> кнопки включения + <br> Шлейф
+            громкости <br> Оригинал</p>
+          <div class="space-y-1">
+            <p class="flex justify-between text-[14px] text-gray-600">Разница <span class="text-black">950 ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">Оптом (от 5 штук): <span class="text-black">750
+                ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">В наличии: <span class="text-black">2536
+                шт.</span></p>
+          </div>
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-[18px] font-medium">- 96 +</p>
+            <button
+              class="w-[120px] lg:w-[142px] h-[53px] border border-[#399A3A] text-[#399A3A] font-semibold hover:bg-[#399A3A] hover:text-white transition-all">В
+              корзину</button>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col justify-between rounded-[5px] p-[15px] bg-white border border-gray-100 shadow-sm h-[461px]">
+          <img src="./img.png" alt="Product" class="mx-auto max-h-[180px] object-contain">
+          <p class="text-[18px] font-semibold leading-tight">iPhone 7 Plus Шлейф <br> кнопки включения + <br> Шлейф
+            громкости <br> Оригинал</p>
+          <div class="space-y-1">
+            <p class="flex justify-between text-[14px] text-gray-600">Разница <span class="text-black">950 ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">Оптом (от 5 штук): <span class="text-black">750
+                ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">В наличии: <span class="text-black">2536
+                шт.</span></p>
+          </div>
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-[18px] font-medium">- 96 +</p>
+            <button
+              class="w-[120px] lg:w-[142px] h-[53px] border border-[#399A3A] text-[#399A3A] font-semibold hover:bg-[#399A3A] hover:text-white transition-all">В
+              корзину</button>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col justify-between rounded-[5px] p-[15px] bg-white border border-gray-100 shadow-sm h-[461px]">
+          <img src="./img.png" alt="Product" class="mx-auto max-h-[180px] object-contain">
+          <p class="text-[18px] font-semibold leading-tight">iPhone 7 Plus Шлейф <br> кнопки включения + <br> Шлейф
+            громкости <br> Оригинал</p>
+          <div class="space-y-1">
+            <p class="flex justify-between text-[14px] text-gray-600">Разница <span class="text-black">950 ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">Оптом (от 5 штук): <span class="text-black">750
+                ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">В наличии: <span class="text-black">2536
+                шт.</span></p>
+          </div>
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-[18px] font-medium">- 96 +</p>
+            <button
+              class="w-[120px] lg:w-[142px] h-[53px] border border-[#399A3A] text-[#399A3A] font-semibold hover:bg-[#399A3A] hover:text-white transition-all">В
+              корзину</button>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col justify-between rounded-[5px] p-[15px] bg-white border border-gray-100 shadow-sm h-[461px]">
+          <img src="./img.png" alt="Product" class="mx-auto max-h-[180px] object-contain">
+          <p class="text-[18px] font-semibold leading-tight">iPhone 7 Plus Шлейф <br> кнопки включения + <br> Шлейф
+            громкости <br> Оригинал</p>
+          <div class="space-y-1">
+            <p class="flex justify-between text-[14px] text-gray-600">Разница <span class="text-black">950 ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">Оптом (от 5 штук): <span class="text-black">750
+                ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">В наличии: <span class="text-black">2536
+                шт.</span></p>
+          </div>
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-[18px] font-medium">- 96 +</p>
+            <button
+              class="w-[120px] lg:w-[142px] h-[53px] border border-[#399A3A] text-[#399A3A] font-semibold hover:bg-[#399A3A] hover:text-white transition-all">В
+              корзину</button>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col justify-between rounded-[5px] p-[15px] bg-white border border-gray-100 shadow-sm h-[461px]">
+          <img src="./img.png" alt="Product" class="mx-auto max-h-[180px] object-contain">
+          <p class="text-[18px] font-semibold leading-tight">iPhone 7 Plus Шлейф <br> кнопки включения + <br> Шлейф
+            громкости <br> Оригинал</p>
+          <div class="space-y-1">
+            <p class="flex justify-between text-[14px] text-gray-600">Разница <span class="text-black">950 ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">Оптом (от 5 штук): <span class="text-black">750
+                ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">В наличии: <span class="text-black">2536
+                шт.</span></p>
+          </div>
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-[18px] font-medium">- 96 +</p>
+            <button
+              class="w-[120px] lg:w-[142px] h-[53px] border border-[#399A3A] text-[#399A3A] font-semibold hover:bg-[#399A3A] hover:text-white transition-all">В
+              корзину</button>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col justify-between rounded-[5px] p-[15px] bg-white border border-gray-100 shadow-sm h-[461px]">
+          <img src="./img.png" alt="Product" class="mx-auto max-h-[180px] object-contain">
+          <p class="text-[18px] font-semibold leading-tight">iPhone 7 Plus Шлейф <br> кнопки включения + <br> Шлейф
+            громкости <br> Оригинал</p>
+          <div class="space-y-1">
+            <p class="flex justify-between text-[14px] text-gray-600">Разница <span class="text-black">950 ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">Оптом (от 5 штук): <span class="text-black">750
+                ₽</span></p>
+            <p class="flex justify-between text-[14px] text-gray-600">В наличии: <span class="text-black">2536
+                шт.</span></p>
+          </div>
+          <div class="flex flex-row items-center justify-between">
+            <p class="text-[18px] font-medium">- 96 +</p>
+            <button
+              class="w-[120px] lg:w-[142px] h-[53px] border border-[#399A3A] text-[#399A3A] font-semibold hover:bg-[#399A3A] hover:text-white transition-all">В
+              корзину</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="flex justify-center mt-6">
+        <button
+          class="w-[171px] h-[53px] bg-[#399A3A] text-white font-semibold rounded-[4px] hover:bg-[#2d7a2e] transition-colors shadow-md">
+          Показать еще
+        </button>
+      </div>
+
+    </div>
+  </section>
+  <section class="mt-[80px] lg:mt-[170px] max-w-[1200px] m-auto px-4 lg:px-0">
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-[20px]">
+
+      <div
+        class="flex flex-col w-full aspect-square lg:w-[198px] lg:h-[198px] bg-[#F6F7FB] rounded-[4px] items-center justify-center p-4">
+        <img src="./discount (2) 1.png" alt="Prices" class="mb-[20px]">
+        <p class="text-center font-semibold text-sm lg:text-base">Достойные <br> оптовые цены</p>
+      </div>
+
+      <div
+        class="flex flex-col w-full aspect-square lg:w-[198px] lg:h-[198px] bg-[#F6F7FB] rounded-[4px] items-center justify-center p-4">
+        <img src="./safe 1.png" alt="Guarantee" class="mb-[20px]">
+        <p class="text-center font-semibold text-sm lg:text-base">Даём гарантию <br> от 1 года</p>
+      </div>
+
+      <div
+        class="flex flex-col w-full aspect-square lg:w-[198px] lg:h-[198px] bg-[#F6F7FB] rounded-[4px] items-center justify-center p-4">
+        <img src="./factory 1.png" alt="Factory" class="mb-[20px]">
+        <p class="text-center font-semibold text-sm lg:text-base">Работаем напрямую <br> с производителями</p>
+      </div>
+
+      <div
+        class="flex flex-col w-full aspect-square lg:w-[198px] lg:h-[198px] bg-[#F6F7FB] rounded-[4px] items-center justify-center p-4">
+        <img src="./quality (1) 1.png" alt="Quality" class="mb-[20px]">
+        <p class="text-center font-semibold text-sm lg:text-base">Контроль качества <br> продукции</p>
+      </div>
+
+      <div
+        class="flex flex-col w-full aspect-square lg:w-[198px] lg:h-[198px] bg-[#F6F7FB] rounded-[4px] items-center justify-center p-4 col-span-2 md:col-span-1">
+        <img src="./broken-.png" alt="Defects" class="mb-[20px]">
+        <p class="text-center font-semibold text-sm lg:text-base">Процент брака <br> сведён к минимуму</p>
+      </div>
+
+    </div>
+  </section>
+  <section
+    class="flex flex-col bg-[url('./manuchehr/bg.png')] bg-cover bg-center mt-[60px] lg:mt-[130px] w-full min-h-[468px] py-10 lg:py-0">
+    <div class="flex flex-col max-w-[1200px] gap-[20px] lg:gap-[30px] m-auto px-4 lg:px-0">
+      <h1 class="text-[20px] lg:text-[22px] font-[500] text-center lg:text-left">
+        No Doors Technology - продажа аксессуаров и запчастей для мобильных телефонов оптом
+      </h1>
+
+      <div class="text-gray-600 text-sm lg:text-base text-center lg:text-left">
+        <p>
+          Товарищи! постоянное информационно-пропагандистское обеспечение нашей деятельности представляет собой
+          интересный эксперимент проверки существенных финансовых и административных условий. С другой стороны
+          укрепление
+          и развитие структуры требуют от нас анализа новых предложений. Таким образом рамки и место обучения кадров
+          позволяет оценить значение системы обучения кадров, соответствует насущным потребностям.
+        </p>
+        <br>
+        <p>
+          Товарищи! дальнейшее развитие различных форм деятельности играет важную роль в формировании системы обучения
+          кадров, соответствует насущным потребностям. Задача организации, в особенности же постоянный количественный
+          рост
+          и сфера нашей активности влечет за собой процесс внедрения и модернизации позиций, занимаемых участниками в
+          отношении поставленных задач. Задача организации, в особенности же начало повседневной работы по формированию
+          позиции в значительной степени обуславливает создание дальнейших направлений.
+        </p>
+      </div>
+    </div>
+  </section>
+  <img src="./Блок _Фото и видео_.png" class="max-w-[1200px] w-full  m-auto mt-[150px]" alt="">
+  <footer class="bg-[#1C1C1C] text-white pt-[60px] pb-[60px] mt-[100px]">
+    <div class="max-w-[1200px] m-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-[40px] lg:gap-[20px] items-start">
+
+        <div class="flex flex-col items-center lg:items-start gap-[10px]">
+          <img src="./logo (2).png" alt="">
+        </div>
+
+        <div class="flex flex-col items-center lg:items-start gap-[20px]">
+          <h3 class="text-[16px] font-bold uppercase">Навигация</h3>
+          <ul class="flex flex-col items-center lg:items-start gap-[10px] text-[15px] text-gray-300">
+            <li class="cursor-pointer hover:text-white">О компании</li>
+            <li class="cursor-pointer hover:text-white">Доставка и оплата</li>
+            <li class="cursor-pointer hover:text-white">Гарантии</li>
+            <li class="cursor-pointer hover:text-white">Контакты</li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col items-center lg:items-start gap-[20px]">
+          <h3 class="text-[16px] font-bold uppercase">Контакты</h3>
+          <div class="flex flex-col items-center lg:items-start gap-[15px] text-[15px] text-gray-300">
+            <div class="flex items-center gap-[10px]">
+              <img src="./phone-icon.png" alt="" class="w-[16px]">
+              <span>+7 (965) 237-44-49</span>
+            </div>
+            <div class="flex items-center gap-[10px]">
+              <img src="./vk-icon.png" alt="" class="w-[16px]">
+              <span>vk.com/*long_link*</span>
+            </div>
+            <div class="flex items-center gap-[10px]">
+              <img src="./inst-icon.png" alt="" class="w-[16px]">
+              <span>@*long_nickname*</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center lg:items-start gap-[20px]">
+          <h3 class="text-[16px] font-bold uppercase">Способы оплаты</h3>
+          <div class="grid grid-cols-2 gap-[10px] items-center">
+            <img src="./logo-visa 1.png" alt="Visa" class="h-[20px]">
+            <img src="./logo-mastercard 1.png" alt="Mastercard" class="h-[30px]">
+            <img src="./logo-maestro 1.png" alt="Maestro" class="h-[30px]">
+            <img src="./logo-mir 1.png" alt="MIR" class="h-[20px]">
+          </div>
+        </div>
+
+        <div class="flex flex-col items-center lg:items-end gap-[20px]">
+          <h3 class="text-[16px] font-bold uppercase">Разработка сайта</h3>
+          <img src="./logo (1).png" alt="Бумеранг" class="h-[40px]">
+          <div class="flex flex-col items-center lg:items-end gap-[5px] mt-[10px]">
+            <a href="#" class="text-[13px] text-gray-400 underline hover:text-white">Политика конфиденциальности</a>
+            <p class="text-[13px] text-gray-500">No Doors Technology © 2020</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
