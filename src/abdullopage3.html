@@ -18,13 +18,17 @@
       <header
         class="flex flex-col lg:flex-row items-center max-w-300 m-auto gap-[25px] justify-between p-[15px_0]"
       >
-        <nav class="flex lg:flex-row flex-col items-center gap-[10px] lg:gap-[50px]">
+        <nav
+          class="flex lg:flex-row flex-col items-center gap-[10px] lg:gap-[50px]"
+        >
           <p><a href="../index.html">О компании</a></p>
           <p><a href="">Доставка и оплата</a></p>
           <p><a href="#">Гарантии</a></p>
           <p><a href="">Контакты</a></p>
         </nav>
-        <nav class="hidden lg:flex lg:flex-row flex-col gap-[10px] lg:gap-[50px] items-center">
+        <nav
+          class="hidden lg:flex lg:flex-row flex-col gap-[10px] lg:gap-[50px] items-center"
+        >
           <p class="font-semibold">
             <i class="fa-solid fa-phone"></i>+7 (965) 237-44-49
           </p>
@@ -33,5 +37,84 @@
         </nav>
       </header>
     </div>
+
+    <header
+      class="max-w-300 m-auto flex flex-col gap-[50px] p-[20px_15px] lg:pb-[20px] lg:pt-[50px] lg:px-0"
+    >
+      <div class="flex justify-between items-center">
+        <img src="./Abdullo/logo.png" alt="" />
+        <div class="flex">
+          <input
+            class="hidden lg:flex w-[600px] outline-none pl-[15px] border-[2px] border-[#399A3A] rounded-tl-[5px] rounded-bl-[5px] border-r-0"
+            type="text"
+            placeholder="Введите поисковой запрос.."
+          />
+          <button
+            class="hidden lg:flex bg-[#399A3A] items-center gap-[8px] text-white font-medium p-[8px_20px] rounded-tr-[5px] rounded-br-[5px]"
+          >
+            <i class="fa-solid fa-magnifying-glass" style="color: white"></i>
+            Найти
+          </button>
+        </div>
+        <div class="flex flex-col items-center gap-[10px] hidden lg:flex">
+          <i
+            class="fa-regular fa-heart"
+            style="font-size: 25px"
+          ></i>
+          <p class="text-[18px]">Избранное</p>
+        </div>
+        <div class="flex flex-col items-center gap-[10px] hidden lg:flex">
+          <i
+            class="fa-solid fa-cart-shopping"
+            style="font-size: 25px"
+          ></i>
+          <p class="text-[18px]">Моя корзина</p>
+        </div>
+        <p class="lg:hidden">
+          <i
+            class="fa-solid fa-bars"
+            style=" font-size: 20px"
+          ></i>
+        </p>
+      </div>
+      <div
+        class="hidden lg:flex flex-col gap-[10px] lg:justify-between lg:flex-row lg:items-center"
+      >
+        <nav class="flex flex-col  lg:gap-[50px] gap-[10px] lg:flex-row">
+          <p class="font-medium text-[18px] flex items-baseline gap-[5px]">
+            Apple
+            <i
+              class="fa-solid fa-angle-down"
+              style="font-size: 12px"
+            ></i>
+          </p>
+          <p class="font-medium text-[18px] flex items-baseline gap-[5px]">
+            Huawei
+            <i
+              class="fa-solid fa-angle-down"
+              style="font-size: 12px"
+            ></i>
+          </p>
+          <p class="font-medium text-[18px] flex items-baseline gap-[5px]">
+            Xiaomi
+            <i
+              class="fa-solid fa-angle-down"
+              style="font-size: 12px"
+            ></i>
+          </p>
+          <p class="font-medium text-[18px] flex items-baseline gap-[5px]">
+            Samsung
+            <i
+              class="fa-solid fa-angle-down"
+              style="font-size: 12px"
+            ></i>
+          </p>
+          <p class="font-medium text-[18px]">Питание и кабели</p>
+          <p class="font-medium text-[18px]">Powerbank</p>
+          <p class="font-medium text-[18px]">Акции</p>
+        </nav>
+        <p class="font-semibold text-[18px] text-[#399A3A]">Прайс-лист</p>
+      </div>
+    </header>
   </body>
 </html>
